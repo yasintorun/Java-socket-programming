@@ -15,7 +15,7 @@ public class Client {
 		
 		int num, result = 0;
 		
-		//				 0		  1		   2		 3		   4			
+		//		 0	  1	   2	    3		4			
 		String[] str = {"err", "doðru", "düþür", "yükselt", "yanlýþ-"};
 		try {
 			s = new Socket("localhost", 3333);
